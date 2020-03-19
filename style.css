@@ -2,23 +2,28 @@ body {
   background-color: #e7e7e7;
   font-family: 'Lato', sans-serif;
   color: #000000;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
 }
 
 h1 {
   font-family: 'Abril Fatface', cursive;
-  color: #2c003e;
   font-weight: bold;
   font-size: 40px;
   line-height: 130%;
 }
 
 h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #512b58;
+  font-family: 'PT Sans', sans-serif;
   font-size: 25px;
   line-height: 30px;
+  color: #404040;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
 }
 
 a {
@@ -30,6 +35,32 @@ a:hover {
   text-decoration: none;
   color: #ae1e47;
   box-shadow: 0 4px 4px rgba(0,0,0,.3);
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/pHnzdSAEkRM");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #FFFFFF;
+  background-blend-mode: luminosity;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner h2{
+  color: white;
+}
+
+.banner p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.banner .container {
+  position: relative;
+  bottom: 20px;
 }
 
 a.social {
@@ -46,6 +77,8 @@ a.social:hover {
 }
 
 .img_round{
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -75,13 +108,14 @@ margin: 20px auto;
 }
 }
 
-.card {
-  background: white;
-  padding: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,.1);
-  border-radius: 4px;
+.card_heading {
+  border-bottom: 1px dashed #aaa;
   text-align: center;
-  margin: 20px;
+}
+
+.card {
+  padding: 10px;
+  text-align: center;
 }
 
 .list-inline {
@@ -91,4 +125,35 @@ margin: 20px auto;
 
 .list-inline li {
   display: inline-block;
+}
+
+.icone-mail {
+position: absolute;
+right: 30px;
+top: 30px;
+font-size: 30px;
+}
+
+.icone-mail:hover {
+  color: #ae1e47;
+  box-shadow: none;
+}
+
+.hobbies-card {
+  float: left;
+  width: 31%;
+  padding: 0 1%;
+  margin: -30px 0 50px 0;
+}
+
+.hobbies-card img {
+  width: 100%;
+  height: 150px;
+}
+
+.hobbies-card h3 {
+  float: left;
+  position: relative;
+  top: 150px;
+  left: 30px;
 }
