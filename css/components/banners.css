@@ -1,0 +1,25 @@
+.banner {
+  background-image: url("https://source.unsplash.com/pHnzdSAEkRM");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-color: #FFFFFF;
+  background-blend-mode: luminosity;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.banner h2{
+  color: white;
+}
+
+.banner p {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.banner .container {
+  position: relative;
+  bottom: 20px;
+}

@@ -1,0 +1,31 @@
+.btn-social {
+  color: #fe346e;
+  font-size: 40px;
+  margin: 10px;
+}
+
+.btn-social:hover {
+  color: #ae1e47;
+  margin: 10px;
+  font-size: 40px;
+  box-shadow: none;
+}
+
+.btn-mail {
+position: absolute;
+right: 30px;
+top: 30px;
+font-size: 30px;
+}
+
+.btn-mail:hover {
+  color: #ae1e47;
+  box-shadow: none;
+}
+
+.btn-rose {
+  background-color: #fe346e;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 4px;
+}
