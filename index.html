@@ -6,69 +6,102 @@
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
     <title>Alex Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
     <div class="banner">
-      <a href="mailto:alexis.lenoir60@gmail.com" target="_blank" class="btn-mail"><i class="fas fa-envelope"></i></a>
-      <div class= "container">
-        <h1>Hello I'm Alex 😇</h1>
-        <img src="images/Profile.jpg" alt="Alexis profile pic" class="img_round">
-        <h2>Programmer at Le Wagon</h2>
-        <p>Currently in Rio de Janeiro 🌞</p>
+      <div class= "banner-container">
+        <div class="title-name mb-3">
+          <h1>Alexis Lenoir</h1>
+        </div>
+        <img src="images/Profile.jpg" alt="Alexis profile pic" class="img_round mb-4">
+        <div class="text-header mb-5">
+          <h2>Full-Stack developper from Le Wagon</h2>
+          <p>Currently in Rio de Janeiro</p>
+        </div>
         <a href="https://www.lewagon.com/fr" target="_blank" class="btn-rose">Discover Le Wagon</a>
       </div>
     </div>
 
     <div class= "container">
-
-      <div class="section-heading">
-        <h2>About me</h2>
-      </div>
       <div class="section">
-        <p>I'm an <font color=#fe346e>urban system engineer</font> who likes to play <font color=#fe346e>football</font> ⚽ and wants to developp his programming skills doing <font color=#fe346e>Le Wagon</font></p>
+        <div class="section-heading">
+          <h2>About me</h2>
+        </div>
+        <div class="section-description mt-2">
+          <p>I'm a former <font color=#fe346e>urban system engineer</font> who always was interessed in <font color=#fe346e>informatic and development</font> so I decided to join <font color=#fe346e>Le Wagon</font> in Rio de Janeiro in 2020</p>
+        </div>
       </div>
 
-      <div class="section-heading">
-        <h2>Social Medias</h2>
-      </div>
       <div class="section">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.facebook.com/alexis.lenoir.77/" target="_blank" class="btn-social">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" target="_blank" class="btn-social">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/alexis.lenoir.77/" target="_blank" class="btn-social">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
+        <div class="section-heading">
+          <h2>Contact me</h2>
+        </div>
+        <div class="section-list mt-3">
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.linkedin.com/in/alexis-lenoir-857496ab/" class="btn-social">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/alex59495" class="btn-social">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/alexis.lenoir.77/" class="btn-social">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/alexis.lenoir.77/" class="btn-social">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:alexis.lenoir60@gmail.com" target="_blank" class="btn-social">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="section-heading">
-        <h2>Hobbies</h2>
+      <div class="section">
+        <div class="section-heading">
+          <h2>My skills</h2>
+        </div>
+        <div class="section-skills">
+          <p class="mb-0">Ruby</p>
+          <p class="mb-0">Ruby on Rails</p>
+          <p class="mb-0">Javascript</p>
+          <p class="mb-0">HTML</p>
+          <p class="mb-0">CSS</p>
+          <p class="mb-0">Git</p>
+          <p class="mb-0">GitHub</p>
+          <p class="mb-0">Heroku</p>
+        </div>
       </div>
-      <div class="cards">
-        <div class="card-category">
-          <img src="https://source.unsplash.com/qZ-U9z4TQ6A" alt="">
-          <h3>Sports</h3>
+      
+
+      <div class="section">
+        <div class="section-heading">
+          <h2>My projects</h2>
         </div>
-         <div class="card-category">
-          <img src="https://source.unsplash.com/BfrQnKBulYQ" alt="">
-          <h3>Coding</h3>
-        </div>
-        <div class="card-category">
-          <img src="https://source.unsplash.com/moJmTRR7E8U" alt="">
-          <h3>Trips</h3>
+        <div class="d-flex justify-content-between mt-3">
+          <div class="card-project d-flex align-items-center justify-content-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/mister-cocktail.jfif')">
+            <a href="https://mmister-cocktail-alexis59.herokuapp.com/">Mister Coktail</a>
+          </div>
+          <div class="card-project d-flex align-items-center justify-content-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/search-4-class.jpg')">
+            <a href="https://search-for-class.herokuapp.com/">Search 4 Class</a>
+          </div>
+          <div class="card-project d-flex align-items-center justify-content-center" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3))">
+            <a href="#">Sororitree</a>
+          </div>
         </div>
       </div>
     </div>

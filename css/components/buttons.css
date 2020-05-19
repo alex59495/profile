@@ -1,25 +1,13 @@
 .btn-social {
   color: #fe346e;
-  font-size: 40px;
+  font-size: 32px;
   margin: 10px;
 }
 
 .btn-social:hover {
   color: #ae1e47;
   margin: 10px;
-  font-size: 40px;
-  box-shadow: none;
-}
-
-.btn-mail {
-position: absolute;
-right: 30px;
-top: 30px;
-font-size: 30px;
-}
-
-.btn-mail:hover {
-  color: #ae1e47;
+  font-size: 32px;
   box-shadow: none;
 }
 
@@ -28,4 +16,10 @@ font-size: 30px;
   color: white;
   padding: 5px 20px;
   border-radius: 4px;
+}
+
+.btn-rose:hover {
+  box-shadow: 2px 2px rgba(94, 94, 94, 0.5);
+  text-decoration: none;
+  color: rgb(212, 212, 212);
 }

@@ -1,27 +1,22 @@
-.cards {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px 0px;
-}
-
-.card-category {
-  display: flex;
+.card-project {
   color: white;
   font-weight: bold;
-  position: relative;
-}
-
-.card-category > img {
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
   border-radius: 8px;
-  height: 100px;
-  width: 150px;
-  box-shadow: 2px 2px 4px #999999;
+  width: 24ch;
 }
 
-.card-category > h3 {
-  position: absolute;
-  text-shadow: 1px 1px 2px #999999;
+.card-project > a {
+  font-size: 24px;
+  text-shadow: 1px 1px #2e2e2e;
   margin: 0;
-  bottom: 15px;
-  left: 15px;
+  color: white;
+}
+
+.card-project > a:hover {
+  text-decoration: none;
+  color: #fe346e;
+  box-shadow: none;
 }

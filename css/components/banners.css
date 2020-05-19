@@ -6,9 +6,13 @@
   background-color: #FFFFFF;
   background-blend-mode: luminosity;
   color: white;
-  padding: 100px 0;
+  height: 100vh;
   text-align: center;
 }
+
+.banner-container {
+  padding-top: 10vh;
+  }
 
 .banner h2{
   color: white;
